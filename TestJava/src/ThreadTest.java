@@ -7,6 +7,7 @@ public class ThreadTest {
         SaleTicketThread t2 = new SaleTicketThread("窗口2");
         SaleTicketThread t3 = new SaleTicketThread("窗口3");
         SaleTicketThread t4 = new SaleTicketThread("窗口4");
+        SaleTicketThread t5 = new SaleTicketThread("窗口5");
 
         t1.start();
         t2.start();
