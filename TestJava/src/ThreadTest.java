@@ -8,8 +8,6 @@ public class ThreadTest {
         SaleTicketThread t3 = new SaleTicketThread("窗口3");
         SaleTicketThread t4 = new SaleTicketThread("窗口4");
         SaleTicketThread t5 = new SaleTicketThread("窗口5");
-
-        System.out.print("test");
         t1.start();
         t2.start();
         t3.start();
